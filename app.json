@@ -1,0 +1,59 @@
+{
+    "name": "Song-Downloader-Bot-V2",
+    "description": "A BOT TO DOWNLOAD MUSIC FROM YOUTUBE.",
+    "logo": "https://telegra.ph/file/dccafb8b3f09bd666b571.jpg",
+    "stack": "container",
+    "keywords": [
+        "song",
+        "youtube",
+        "Telegram",
+        "nazriya"
+    ],
+    "website": "https://github.com/AdhwaithD",
+    "repository": "https://github.com/AdhwaithD/Song--downloader-Bot-V2",
+    "success_url": "https://t.me/AD_BOTZ",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        }, 
+        "OWNER_ID": {
+            "description": "Your id for broadcasting messages to users. Only you can broadcast message.",
+            "value": ""
+        },
+        "DB_URI": {
+            "description": "Your database url from mongodb.",
+            "value": ""
+        }, 
+        "SUPPORT": {
+            "description": "Your support chat Username Without @",
+            "value": "NAZRIYASUPPORT"
+        }, 
+        "BOT_NAME": {
+            "description": "your Bot name ",
+            "value": "Song Downloader bot"
+        }, 
+        "BOT_USERNAME": {
+            "description": "Your bot Username Without @",
+            "value": "NazriyaSongBot"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+        }
+      ]
+   }
+    
